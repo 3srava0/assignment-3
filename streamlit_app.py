@@ -25,9 +25,7 @@ os.makedirs(app_dir, exist_ok=True)
 
 print(f"\n✅ App directory created: {app_dir}")
 
-# Install Streamlit and dependencies
-!pip install streamlit -q
-!pip install pyngrok -q
+
 
 print("✅ Streamlit and dependencies installed!")
 
